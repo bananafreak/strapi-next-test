@@ -1,0 +1,28 @@
+{
+  "connection": "default",
+  "collectionName": "components_tools_buttons",
+  "info": {
+    "name": "button",
+    "icon": "cat"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary",
+        "text"
+      ],
+      "default": "primary",
+      "required": true
+    }
+  }
+}

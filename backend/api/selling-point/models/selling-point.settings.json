@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "selling_points",
+  "info": {
+    "name": "SellingPoint"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": true
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "tools.link"
+    }
+  }
+}

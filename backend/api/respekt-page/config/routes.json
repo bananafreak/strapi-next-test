@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/respekt-page",
+      "handler": "respekt-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/respekt-page",
+      "handler": "respekt-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/respekt-page",
+      "handler": "respekt-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

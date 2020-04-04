@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "connection": "default",
+  "collectionName": "respekt_pages",
+  "info": {
+    "name": "Respekt Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.header"
+    },
+    "selling_points": {
+      "collection": "selling-point"
+    },
+    "quote": {
+      "type": "string",
+      "default": "yayayaya",
+      "required": true,
+      "maxLength": 10
+    }
+  }
+}

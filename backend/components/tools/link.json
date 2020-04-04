@@ -1,0 +1,19 @@
+{
+  "connection": "default",
+  "collectionName": "components_tools_links",
+  "info": {
+    "name": "link",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "to": {
+      "type": "string",
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

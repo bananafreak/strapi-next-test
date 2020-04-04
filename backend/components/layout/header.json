@@ -1,0 +1,30 @@
+{
+  "connection": "default",
+  "collectionName": "components_layout_headers",
+  "info": {
+    "name": "Header",
+    "icon": "arrow-up"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true,
+      "maxLength": 150
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "tools.button"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "tools.image"
+    }
+  }
+}

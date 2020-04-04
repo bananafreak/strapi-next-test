@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "components_tools_images",
+  "info": {
+    "name": "image",
+    "icon": "ambulance"
+  },
+  "options": {},
+  "attributes": {
+    "file": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": true
+    },
+    "alt": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

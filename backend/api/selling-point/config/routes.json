@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/selling-points",
+      "handler": "selling-point.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/selling-points/count",
+      "handler": "selling-point.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/selling-points/:id",
+      "handler": "selling-point.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/selling-points",
+      "handler": "selling-point.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/selling-points/:id",
+      "handler": "selling-point.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/selling-points/:id",
+      "handler": "selling-point.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
