@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import Section from '../components/Section';
 import SellingPoints from '../components/SellingPoints';
 import Query from '../components/Query';
+import MarkdownContent from '../components/MarkdownContent';
 import RESPEKT_PAGE_QUERY from '../apollo/queries/respekt/sellingPoints';
 
 const Wrapper = styled.div`
@@ -52,6 +53,7 @@ const RespektPage = () => (
               heading='Proč se (vůbec) pojistit'
               list={respektPage.selling_points}
             />
+            <MarkdownContent>{respektPage.content}</MarkdownContent>
           </>
         );
       }}

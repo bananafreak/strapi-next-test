@@ -18,11 +18,9 @@
     "selling_points": {
       "collection": "selling-point"
     },
-    "quote": {
-      "type": "string",
-      "default": "yayayaya",
-      "required": true,
-      "maxLength": 10
+    "content": {
+      "type": "richtext",
+      "required": true
     }
   }
 }

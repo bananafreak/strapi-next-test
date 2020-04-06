@@ -29,6 +29,7 @@ const RESPEKT_PAGE_QUERY = gql`
           label
         }
       }
+      content
     }
   }
 `;

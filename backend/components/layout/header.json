@@ -13,8 +13,7 @@
     },
     "description": {
       "type": "richtext",
-      "required": true,
-      "maxLength": 150
+      "required": true
     },
     "button": {
       "type": "component",
