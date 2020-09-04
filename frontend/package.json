@@ -19,7 +19,7 @@
     "graphql": "^14.6.0",
     "graphql-tag": "^2.10.3",
     "isomorphic-unfetch": "^3.0.0",
-    "markdown-to-jsx": "^6.11.0",
+    "markdown-to-jsx": "^6.11.4",
     "moment": "^2.24.0",
     "next": "9.3.2",
     "next-fonts": "^1.0.3",
